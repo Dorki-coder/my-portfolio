@@ -1,0 +1,42 @@
+.menu_container {
+  position: fixed;
+  opacity: 0;
+  width: 0;
+  top: 0;
+  right: -100;
+}
+
+.menu_active {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30vw;
+  height: 100vh;
+  transition: 0.7s;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+.nav {
+  margin-top: 15px;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  margin-right: 25px;
+  text-align: right;
+  cursor: pointer;
+}
