@@ -1,7 +1,6 @@
 import s from "./Menu.module.css";
 
 export default function Menu({ isMenu, setMenu }) {
-  console.log(isMenu);
   return (
     <div className={isMenu ? s.menu_active : s.menu_container}>
       <nav className={s.nav}>

@@ -16,7 +16,12 @@ export default function Header() {
               isMenu ? setMenu(false) : setMenu(true);
             }}
           >
-            Menu<i className="fa-solid fa-bars"></i>
+            Menu
+            <img
+              width="24"
+              alt="menu"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAAVElEQVRoge3W0Q2AMAxDQRcxOExOhyBSoupuAvvvJQA0WEme7hEVVpKve0SFq3tAFUemuZO83SMAgCIyfppjotGRaWQ8AJxExk9zTDQ6Mo2MB+CPDXJLBiVsKHgMAAAAAElFTkSuQmCC"
+            />
           </div>
         </nav>
       </div>
